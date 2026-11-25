@@ -2,6 +2,10 @@
 
 Platform pemantauan atmosfer, peringatan dini cuaca provinsi, dan visualisasi data geospasial interaktif untuk wilayah Indonesia yang menggabungkan pipeline data Python dengan antarmuka web berbasis **Leaflet** dan **Chart.js**.
 
+## Tampilan Aplikasi
+
+![Tampilan NusantaraWeather](docs/preview.jpg)
+
 ## Fitur Utama
 
 1. **Peta Cuaca & Peringatan 38 Provinsi (Real-Time)**
