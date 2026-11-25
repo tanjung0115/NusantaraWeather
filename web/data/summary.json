@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-11-16T05:19:45.550248+00:00",
+  "total_radiosonde_stations": 4,
+  "total_reanalysis_grid_points": 72,
+  "deep_convective_clusters": 3,
+  "regional_mean_temp_c": 29.3,
+  "highest_cape_station": {
+    "name": "Biak / Frans Kaisiepo",
+    "cape_j_kg": 2120
+  }
+}

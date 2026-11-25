@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "name": "Himawari_IR_Band13_Convective_Clusters",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster_id": "HIM-01",
+        "region": "Selat Sunda - Jawa Barat",
+        "brightness_temp_k": 208.4,
+        "brightness_temp_c": -64.7,
+        "radius_km": 115,
+        "intensity": "Deep Convective (Potensi Hujan Lebat & Petir)",
+        "alert_level": "high"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8,
+          -6.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster_id": "HIM-02",
+        "region": "Laut Jawa Tengah",
+        "brightness_temp_k": 216.8,
+        "brightness_temp_c": -56.3,
+        "radius_km": 95,
+        "intensity": "Moderate Convective (Awan Hujan Aktif)",
+        "alert_level": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.2,
+          -5.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster_id": "HIM-03",
+        "region": "Selat Makassar",
+        "brightness_temp_k": 203.1,
+        "brightness_temp_c": -70.0,
+        "radius_km": 140,
+        "intensity": "Deep Convective (Potensi Hujan Lebat & Petir)",
+        "alert_level": "high"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.4,
+          -2.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster_id": "HIM-04",
+        "region": "Kalimantan Barat",
+        "brightness_temp_k": 224.5,
+        "brightness_temp_c": -48.6,
+        "radius_km": 110,
+        "intensity": "Developing Cloud Cluster",
+        "alert_level": "low"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.5,
+          0.4
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster_id": "HIM-05",
+        "region": "Teluk Cenderawasih (Papua)",
+        "brightness_temp_k": 199.7,
+        "brightness_temp_c": -73.4,
+        "radius_km": 155,
+        "intensity": "Deep Convective (Potensi Hujan Lebat & Petir)",
+        "alert_level": "high"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6,
+          -2.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cluster_id": "HIM-06",
+        "region": "Pesisir Barat Sumatra",
+        "brightness_temp_k": 212.0,
+        "brightness_temp_c": -61.1,
+        "radius_km": 125,
+        "intensity": "Moderate Convective (Awan Hujan Aktif)",
+        "alert_level": "medium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.6,
+          -1.8
+        ]
+      }
+    }
+  ]
+}
