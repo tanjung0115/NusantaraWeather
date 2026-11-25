@@ -8,10 +8,10 @@ const map = L.map("map", {
 
 L.control.zoom({ position: "topright" }).addTo(map);
 
-// Peta dasar terang bersih tanpa API key (Esri World Light Gray Base)
-L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+// Peta dasar laut biru & daratan hijau tanpa API key (Esri World Topo Map)
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}", {
   attribution: "&copy; Esri, HERE, Garmin, OpenStreetMap",
-  maxZoom: 16,
+  maxZoom: 18,
 }).addTo(map);
 
 const indonesiaHighlightLayer = L.layerGroup().addTo(map);
@@ -424,10 +424,10 @@ function getProvinceWeatherStats(prov) {
     wx = describeWeather(sample);
   }
 
-  let alertLevel = 0; // 0=Aman, 1=Waspada, 2=Siaga, 3=Awas
+  let alertLevel = 0; // 0=Aman (Hijau), 1=Waspada (Kuning), 2=Siaga (Oranye), 3=Awas (Merah)
   if (code >= 95 || precip >= 10 || windMs >= 11) alertLevel = 3;
   else if (code >= 63 || precip >= 4 || windMs >= 8.5) alertLevel = 2;
-  else if (code >= 51 || precip >= 0.5 || cloud >= 75 || windMs >= 6.0) alertLevel = 1;
+  else if (code >= 51 || precip >= 1.0 || windMs >= 7.0) alertLevel = 1;
 
   return { temp, cloud, windMs, precip, pressure, humidity, wx, code, alertLevel };
 }

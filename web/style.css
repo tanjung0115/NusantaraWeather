@@ -231,17 +231,17 @@ body {
 }
 
 .leaflet-tile-pane {
-  filter: invert(92%) hue-rotate(180deg) brightness(0.86) contrast(1.06);
+  filter: brightness(0.64) contrast(1.14) saturate(1.35);
 }
 
 /* ================= LIGHT MODE ================= */
 body.light-theme,
 body.light-theme #map {
-  background: #bfe3f7;
+  background: #93c5fd;
 }
 
 body.light-theme .leaflet-tile-pane {
-  filter: sepia(12%) hue-rotate(175deg) saturate(150%) brightness(1.02);
+  filter: brightness(1.0) contrast(1.04) saturate(1.18);
 }
 
 body.light-theme .top-navbar {
@@ -326,7 +326,7 @@ body.light-theme .pill-awas { background: #fee2e2; color: #991b1b; border-color:
 /* Dark Mode Overrides for Search & Info Box */
 body:not(.light-theme),
 body:not(.light-theme) #map {
-  background: #0a0a0a;
+  background: #0a2540;
 }
 
 body:not(.light-theme) .floating-search,
