@@ -4,7 +4,7 @@ Platform pemantauan atmosfer, peringatan dini cuaca provinsi, dan visualisasi da
 
 ## Tampilan Aplikasi
 
-![Tampilan NusantaraWeather](docs/preview.jpg)
+![Tampilan NusantaraWeather](docs/preview-v2.jpg)
 
 ## Fitur Utama
 
